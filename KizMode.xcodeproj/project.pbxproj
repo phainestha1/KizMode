@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		89B72F4E282386350035AF9A /* KizModeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F4D282386350035AF9A /* KizModeApp.swift */; };
-		89B72F50282386350035AF9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F4F282386350035AF9A /* ContentView.swift */; };
+		89B72F50282386350035AF9A /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F4F282386350035AF9A /* Playground.swift */; };
 		89B72F52282386360035AF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F51282386360035AF9A /* Assets.xcassets */; };
 		89B72F55282386360035AF9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F54282386360035AF9A /* Preview Assets.xcassets */; };
 		89B72F5F282386360035AF9A /* KizModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F5E282386360035AF9A /* KizModeTests.swift */; };
 		89B72F69282386360035AF9A /* KizModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F68282386360035AF9A /* KizModeUITests.swift */; };
 		89B72F6B282386360035AF9A /* KizModeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F6A282386360035AF9A /* KizModeUITestsLaunchTests.swift */; };
+		89B72F78282387F70035AF9A /* SampleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F77282387F70035AF9A /* SampleShape.swift */; };
+		89B72F7B282399BB0035AF9A /* ShapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F7A282399BB0035AF9A /* ShapeModel.swift */; };
+		89B72F7E2823A4350035AF9A /* GIFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F7D2823A4350035AF9A /* GIFImage.swift */; };
+		89B72F812823A5860035AF9A /* movingCat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F802823A5860035AF9A /* movingCat.gif */; };
+		89B72F832823AA810035AF9A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F822823AA810035AF9A /* AudioPlayer.swift */; };
+		89B72F852823AAA10035AF9A /* blobSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F842823AAA10035AF9A /* blobSound.mp3 */; };
+		89B72F882823B24C0035AF9A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B72F872823B24C0035AF9A /* Main.swift */; };
+		89B72F8C2823BD800035AF9A /* lovelyChick.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F892823BD800035AF9A /* lovelyChick.gif */; };
+		89B72F8D2823BD800035AF9A /* moppingChick.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F8A2823BD800035AF9A /* moppingChick.gif */; };
+		89B72F8E2823BD800035AF9A /* dancingDuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89B72F8B2823BD800035AF9A /* dancingDuck.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		89B72F4A282386350035AF9A /* KizMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B72F4D282386350035AF9A /* KizModeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KizModeApp.swift; sourceTree = "<group>"; };
-		89B72F4F282386350035AF9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89B72F4F282386350035AF9A /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		89B72F51282386360035AF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B72F54282386360035AF9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89B72F5A282386360035AF9A /* KizModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KizModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,16 @@
 		89B72F64282386360035AF9A /* KizModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KizModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B72F68282386360035AF9A /* KizModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KizModeUITests.swift; sourceTree = "<group>"; };
 		89B72F6A282386360035AF9A /* KizModeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KizModeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89B72F77282387F70035AF9A /* SampleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleShape.swift; sourceTree = "<group>"; };
+		89B72F7A282399BB0035AF9A /* ShapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModel.swift; sourceTree = "<group>"; };
+		89B72F7D2823A4350035AF9A /* GIFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImage.swift; sourceTree = "<group>"; };
+		89B72F802823A5860035AF9A /* movingCat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = movingCat.gif; sourceTree = "<group>"; };
+		89B72F822823AA810035AF9A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		89B72F842823AAA10035AF9A /* blobSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blobSound.mp3; sourceTree = "<group>"; };
+		89B72F872823B24C0035AF9A /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		89B72F892823BD800035AF9A /* lovelyChick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lovelyChick.gif; sourceTree = "<group>"; };
+		89B72F8A2823BD800035AF9A /* moppingChick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = moppingChick.gif; sourceTree = "<group>"; };
+		89B72F8B2823BD800035AF9A /* dancingDuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dancingDuck.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +114,14 @@
 		89B72F4C282386350035AF9A /* KizMode */ = {
 			isa = PBXGroup;
 			children = (
+				89B72F7F2823A5750035AF9A /* Asset */,
+				89B72F7C2823A4240035AF9A /* Controller */,
+				89B72F79282399AC0035AF9A /* Model */,
+				89B72F862823AF0B0035AF9A /* View */,
 				89B72F4D282386350035AF9A /* KizModeApp.swift */,
-				89B72F4F282386350035AF9A /* ContentView.swift */,
 				89B72F51282386360035AF9A /* Assets.xcassets */,
 				89B72F53282386360035AF9A /* Preview Content */,
+				89B72F77282387F70035AF9A /* SampleShape.swift */,
 			);
 			path = KizMode;
 			sourceTree = "<group>";
@@ -125,6 +149,44 @@
 				89B72F6A282386360035AF9A /* KizModeUITestsLaunchTests.swift */,
 			);
 			path = KizModeUITests;
+			sourceTree = "<group>";
+		};
+		89B72F79282399AC0035AF9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89B72F7A282399BB0035AF9A /* ShapeModel.swift */,
+				89B72F7D2823A4350035AF9A /* GIFImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89B72F7C2823A4240035AF9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89B72F822823AA810035AF9A /* AudioPlayer.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89B72F7F2823A5750035AF9A /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				89B72F8B2823BD800035AF9A /* dancingDuck.gif */,
+				89B72F892823BD800035AF9A /* lovelyChick.gif */,
+				89B72F8A2823BD800035AF9A /* moppingChick.gif */,
+				89B72F842823AAA10035AF9A /* blobSound.mp3 */,
+				89B72F802823A5860035AF9A /* movingCat.gif */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		89B72F862823AF0B0035AF9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89B72F4F282386350035AF9A /* Playground.swift */,
+				89B72F872823B24C0035AF9A /* Main.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +293,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B72F812823A5860035AF9A /* movingCat.gif in Resources */,
 				89B72F55282386360035AF9A /* Preview Assets.xcassets in Resources */,
 				89B72F52282386360035AF9A /* Assets.xcassets in Resources */,
+				89B72F8C2823BD800035AF9A /* lovelyChick.gif in Resources */,
+				89B72F8D2823BD800035AF9A /* moppingChick.gif in Resources */,
+				89B72F852823AAA10035AF9A /* blobSound.mp3 in Resources */,
+				89B72F8E2823BD800035AF9A /* dancingDuck.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B72F50282386350035AF9A /* ContentView.swift in Sources */,
+				89B72F7E2823A4350035AF9A /* GIFImage.swift in Sources */,
+				89B72F50282386350035AF9A /* Playground.swift in Sources */,
+				89B72F7B282399BB0035AF9A /* ShapeModel.swift in Sources */,
+				89B72F78282387F70035AF9A /* SampleShape.swift in Sources */,
 				89B72F4E282386350035AF9A /* KizModeApp.swift in Sources */,
+				89B72F882823B24C0035AF9A /* Main.swift in Sources */,
+				89B72F832823AA810035AF9A /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
